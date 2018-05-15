@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
-const options = {   logging: false, operatorsAliases: false};
-const sequelize = new Sequelize("sqlite:quizzes.sqlite",options);
+  
+const sequelize = new Sequelize("sqlite:quizzes.sqlite", logging: false);
 
 sequelize.define('quiz', {
     question:{
